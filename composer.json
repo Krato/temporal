@@ -1,0 +1,27 @@
+{
+  "name": "ericlagarda/temporal",
+  "description": "Laravel 5 package to create temporal url resources",
+  "keywords": ["laravel", "temporal"],
+  "homepage": "",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Eric Lagarda",
+      "email": "info@ericlagarda.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/config": "~5.0",
+    "illuminate/support": "~5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "EricLagarda\\Temporal\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
